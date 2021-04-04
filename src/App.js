@@ -1,14 +1,16 @@
 import {Navbar, NavbarBrand  } from "reactstrap";
-import './App.css';
+import  Menu from "./components/MenuComponent";
+
 
 function App() {
   return (
-    <div className="App">
-      <Navbar dark color='primary'>
+    <div>
+      <Navbar dark color='primary navbar-expand-sm'>
         <div className='container'>
           <NavbarBrand href='/'> Aqib is here </NavbarBrand>
         </div>
       </Navbar>
+      <Menu/>
     </div>
   );
 }
